@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.flex-content{
+    display:flex;
+}
+.header{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+h3{
+    text-transform: capitalize;
+}
+p{
+    color:#858484;
+}
+.hire-btn{
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+    background-image: linear-gradient(to right,#FF9470, #ff6d4f);
+    padding:10px 40px;
+    border-radius: 10px;
+}
+.half-width{
+    width:40%;
+    margin-left: 5%;
+    padding-left: 2;
+    padding-bottom:150px;
+}
+img{
+    width:100%;
+}
+.dream-area{
+    background-image: url(img/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right ;
+}
+h2{
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.experience-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+    background-position: left;
+    
+}
+.developer-area h3{
+    color:#FFA500;
+}
+#dev-one{
+    box-shadow:2px 5px 10px;
+    padding-left:2%;
+    border-image:linear-gradient(#FF9B76,#FF674A);
+    border-left: 8px solid;
+    border-image-slice:1;
+}
+#dev-two{
+    box-shadow:2px 5px 10px;
+    padding-left:2%;
+    border-image:linear-gradient(#0039FF,#00CEFF);
+    border-left: 8px solid;
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+}
