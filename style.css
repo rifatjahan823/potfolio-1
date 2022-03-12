@@ -72,3 +72,26 @@ h2{
 footer p{
     text-align: center;
 }
+
+
+
+
+.title{
+    border-left:4px solid red;
+    height:23px;
+    position: relative;
+}
+.circle{
+    margin-top: 2px;
+    position: absolute;
+    top: 5px;
+}
+.header-title h1{
+    color:black;
+    font-size: 50px;
+    text-transform: capitalize;
+    line-height: 65px;
+    padding:0px 8px ;
+    font-family: 'Noto Serif', serif;
+    border-left: 4px solid orangered;
+}
